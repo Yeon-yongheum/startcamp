@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% if gender == "남자" %}
+        <h1>{{who}}님은 {{chr}} 여자와 {{vehicle}}타고 데이트를 할것입니다.</h1>
+
+    {% elif gender == "여자" %}
+        <h1>{{who}}님은 {{chr}} 남자와 {{vehicle}}타고 데이트를 할것입니다.</h1>
+
+    {% else %}
+        <h1>{{who}}님은 {{chr}} 생물과 {{vehicle}}타고 데이트를 할것입니다.</h1>
+
+    {% endif %}
+        <br>
+    <img  width="200" height="250" src={{url_1}}>
+</body>
+</html>

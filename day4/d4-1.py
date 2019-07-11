@@ -61,7 +61,7 @@ for name in scores.keys():
     total = 0
     for score in scores[name].values():
         sum += score
-        avg = s/len(scores[name])
+        avg = sum/len(scores[name])
     print(f'{name} {avg}')
     total += avg
 print(f'{total/len(name)}')

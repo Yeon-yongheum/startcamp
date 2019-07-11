@@ -8,10 +8,14 @@
 </head>
 <body>
     <!-- jinja : 템플릿 엔진 -->
+    <!-- {# {%%} 로직 코드 #} -->
+    <!-- {# {{ }} 출력 코드 #} -->
     {% if name == '용흠' %}
         <h1>{{ name }}, 안녕하십니까. 반장님.</h1>
+        <img src="https://post-phinf.pstatic.net/MjAxOTA2MjRfNzYg/MDAxNTYxMzUxMjQ5NzQ3.PALNL4sUkCIqrc7g0WlH-I1iFUnehRkUiIEbwPbxHzog.Xa0f2IH6PJPE85LqvA4EYiOJqulLXeFF0h_FateQY1kg.JPEG/01.jpg?type=w1200">
     {% else %}
         <h1>{{ name }}, ㅎㅇ</h1>
+        <img width="200" height="250" src="http://blogfiles.naver.net/20140927_29/mir4480_1411789046579FxsyT_JPEG/2_1.jpg"  alt="일반인">
     {% endif %}
 </body>
 </html>
